@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2{
+       text-align: center;
+       color: brown;
+       text-transform: capitalize ;
+       text-decoration: underline;
+       text-indent: 50px;
+       word-spacing: 5px;
+       line-height: 3;
+       background-image: linear-gradient(red,blue,green);
+       padding: 20px;
+       margin: 20px;
+       border-radius: 20px;
+    
+       box-shadow: 15px 15px 15px 15px rebeccapurple;
+    }
+    
+    #mybox{
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
+        border-radius: 20px;
+        margin: 20px;
+        animation-name: anim;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        position: relative;
+    }
+
+    @keyframes anim{
+        20%{background-color: chartreuse;left: 0px; top: 0px;}
+        50%{background-color: rgb(72, 0, 255);left: 150px; top: 200px;}
+        70%{background-color: rgb(255, 0, 212);left: 250px; top: 300px;}
+        80%{background-color: rgb(255, 0, 55);left: 350px; top: 4000px;}
+        1000%{background-color: rgb(0, 162, 255);left: 450px; top: 500px;}
+
+    }
+    
+</style>
+<body>
+<h2>Welcome all</h2>
+    <div align="center" id="mybox"><br><br><br><br>
+      <h4>Thank You</h4>
+    </div>
+</body>
+</html>

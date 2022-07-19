@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #Home{grid-area:home;}
+    #Aboutus{grid-area:Aboutus;}
+    #Gallery{grid-area:Gallery;}
+    #Contact{grid-area:Contact;}
+    #Work{grid-area:Work;}
+
+    #maindiv{
+        display:grid;
+        grid-template-areas: "home home home home home"
+        "Aboutus Aboutus Aboutus Aboutus Gallery"
+        "Contact Contact Contact Contact Contact"
+        "Work Work Work Work Work";
+        padding:20px;
+        margin: 20px;
+        background-color: rgb(123, 0, 255);
+        border-radius: 20px;
+    }
+    #maindiv>div{
+        text-align: center;
+        background-color: rgb(42, 165, 85);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        font-family: cursive;
+        color: blue;
+        box-shadow: 5px 5px red;
+    }
+</style>
+<body>
+    <div id="maindiv">
+        <div id="Home">Home</div>
+        <div id="Aboutus">About</div>
+        <div id="Gallery">Gallery</div>
+        <div id="Contact">Contact</div>
+        <div id="Work">Work</div>
+    </div>
+</body>
+</html>
